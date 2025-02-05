@@ -1,0 +1,58 @@
+.bg {
+    background: url(../colorful-festive-gingerbread-cookies-form-candies-covered-with-glaze-blue-background-copy-space_169016-13078.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+    background-size: cover;
+}
+
+/* 
+.content{
+    position: absolute;
+    margin-top: 5rem;
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 80%;
+} */
+
+.header {
+    height: 4rem;
+    width: 100%;
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    line-height: 4rem;
+    position: fixed;
+    z-index: 20;
+}
+
+.header img {
+    height: 100%;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.logButton {
+    width: 12%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: crimson;
+    margin: 1rem;
+    font-size: large;
+    font-family: 'Trebuchet MS';
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    line-height: 40px;
+    border: none;
+}
+
+.logButton:hover {
+    color: aliceblue;
+    background-color: crimson;
+}

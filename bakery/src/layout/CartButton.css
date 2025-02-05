@@ -1,0 +1,42 @@
+.cartButton {
+    width: 12%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: crimson;
+    margin: 1rem;
+    font-size: large;
+    font-family: 'Trebuchet MS';
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    line-height: 40px;
+    border: none;
+}
+
+.cartButton:hover {
+    color: aliceblue;
+    background-color: crimson;
+}
+
+.cartButton svg {
+    margin-top: 2px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    align-self: center;
+    justify-self: end;
+}
+
+.cartButton div {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: black;
+    opacity: 30%;
+    color: aliceblue;
+    line-height: 30px;
+    align-self: center;
+    justify-self: end;
+}
